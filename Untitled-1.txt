@@ -1,0 +1,9 @@
+curl -X POST -H "Content-Type: application/json" -d '{ 
+"greeting":[
+  {
+    "locale":"default",
+    "text":"Hello {{user_first_name}}!"
+  }
+]
+}
+}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAADTJpixxIYBADs6Xdz8b9l8ezzwk5UFyQAzPhrRTIIBif1UHWMCPYef4Pd1ph5kZAdcDB7ZAWwrAMZCfYKS61McRz3yQMlofSHk19t7ZAZB4GBgcO4tHMC6ZCQu7QZCI65I9x7elYNDPSP1C3rWa7EgdxKZBBwUxhR3955dyr5OUAZDZD"
